@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.limite-container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+body {
+    background:linear-gradient(#e4e3e3, #c2c2c2, #d1d1cb );
+    
+    
+}
+
+::-webkit-scrollbar{
+   display: none;
+}

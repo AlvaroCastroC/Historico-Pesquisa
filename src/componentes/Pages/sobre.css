@@ -1,0 +1,101 @@
+.container-secao {
+    width: 100%;
+}
+
+.container-secao button {
+    width: 50px;
+    position: fixed;
+    background-color: transparent;
+    z-index: 100;
+    right: 10px;
+    bottom: 50px;
+    padding: 2px 2px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.container-secao img {
+   width: 100%;
+   object-fit: cover;
+}
+
+.container-secao button img:hover {
+    filter: drop-shadow(3px 2px #d16837);
+}
+
+.container-secao h2 {
+    font-size: 50px;
+    font-family: monospace;
+    border-bottom: 2px solid #d16837;
+    margin-bottom: 25px;
+}
+
+.secoes {
+    margin: 50px 0;
+    padding: 10px 25px;
+}
+
+.secoes h3 {
+    font-size: 30px;
+    color: #182358;
+    font-family: monospace;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.secoes p {
+    font-size: 18px;
+    font-family: tahoma;
+    margin-bottom: 25px;
+
+    text-align: justify;
+}
+
+.secao-culinaria {
+    box-shadow: 1px 2px 5px 0 #000;
+    background-color: #dddddd;
+}
+
+.secao-culinaria h4 {
+    font-size: 22px;
+    border-bottom: 2px solid #d16837;
+    margin-bottom: 10px;
+    color: #df1a1a;
+}
+
+.card-pratos img {
+    flex-shrink: 100px;
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.card-pratos{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+
+.secao-culinaria:nth-child(odd) .card-pratos img{
+    order: 1;
+    
+}
+
+.link-saiba-mais {
+    font-size: 18px;
+    font-family: Tahoma;
+
+}
+
+.link-saiba-mais a{
+    text-decoration: none;
+    font-weight: 800;
+    color: blue;
+
+}
+

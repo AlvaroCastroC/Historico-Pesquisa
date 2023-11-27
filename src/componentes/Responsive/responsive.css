@@ -1,0 +1,203 @@
+@media screen and (min-width: 412px) and (max-width: 500px) {
+    .limite-container {
+        max-width: 90vw;
+    }
+/* Secao Banner */
+    .banner {
+        height: 50vh;
+        
+    }
+
+    
+    .banner .titulo-banner{
+        margin: 30px auto;
+
+        height: 35vh;
+        
+        padding: 20px 20px;
+       
+    
+    }
+
+    .titulo-banner h1 {
+        font-size: 2.8cqmax;
+
+    }
+
+    .titulo-banner h3 {
+        font-size: 2.6cqmax;
+    }
+
+    .titulo-banner p{
+        font-size: 1.8cqmax;
+    }
+
+/* Secao Home */
+    
+    
+    .container-input input {
+        height: 40px;   
+    }
+    
+    .titulo-home {
+        max-width: 100%;
+        margin: 40px auto;
+    }
+    
+    .titulo-home h2{
+        font-size: 2.2rem;
+        text-align: center;
+    }
+    
+    .titulo-home p{
+        font-size: 1.2rem;
+        font-family: Tahoma;
+        line-height: 1.3;
+        text-align: justify;
+    }
+    
+    .titulo-home p:last-of-type{
+        margin-top: 20px;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    .titulo-home span{
+        color: #df1a1a;
+        font-weight: 800;
+    }
+/* Secao Card*/ 
+
+    .box-card {
+        width: calc((100% - 40px) /2);
+        
+        flex-grow: 1;
+       
+    }
+    
+    .card h3 {
+        font-size: 2.7cqmax;
+    }
+    
+    .card h5 {
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 1.8cqmax;
+      
+    }
+    
+    .card p {
+    
+        font-size: 1.8cqmax;
+        color: #111111;
+    }
+    
+    .card span {
+        color: #182358;
+        font-size: 1.9cqmax;
+        
+    }
+    
+    .box-link {
+        margin: 10px auto;
+        width: 80%;
+        border-radius: 5px;
+        background: radial-gradient(#c41919 ,#ec0c0c);
+        
+    }
+    
+    .link{
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .box-link:hover{
+        background: radial-gradient(#df5110 ,#ec720d);
+        
+    }
+    
+    .card img {
+        width: 100%;
+        
+        max-height: 150px;
+        
+    }
+
+/* Secao Footer*/
+    footer {
+        height: 200px;
+        margin-top: 70px;
+        width: 100%;
+        background: radial-gradient(#1d1c1c, #181717);
+        position: relative;
+        z-index: 100;
+    }
+    
+    footer .rodape {
+        width: calc((100% - 5px) /1);
+       
+    }
+    
+    
+    .lista-links ul a{
+        font-size: 2cqmax;
+        text-decoration: none;
+        
+    }
+    
+    .consideracoes h4{
+        font-size: 22px;
+        color: #d16837;
+    }
+    
+    .consideracoes p{
+        font-size: 13px;
+        color: #fff;
+    }
+    
+    .fim-rodape span{
+        font-family: cursive;
+        font-size: 20px;
+    }
+/* Secao Sobre */    
+    .card-pratos{
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        gap: 15px;
+        
+    }
+
+    .secao-culinaria:nth-child(odd) .card-pratos img{
+        order: 0;
+        
+    }
+
+    .secao-culinaria h4 {
+        font-size: 25px;
+       
+        margin-bottom: 15px;
+    }
+    
+    .secoes {
+        margin: 30px 0;
+        padding: 5px 15px;
+    }
+
+    .secoes p {
+        font-size: 18px;
+        font-family: tahoma;
+        margin-bottom: 15px;
+    
+        text-align: justify;
+    }
+    
+    
+    
+}

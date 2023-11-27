@@ -1,0 +1,79 @@
+footer {
+    height: 200px;
+    margin-top: 70px;
+    width: 100%;
+    background: radial-gradient(#1d1c1c, #181717);
+    position: relative;
+    z-index: 100;
+}
+
+footer .rodape {
+    padding: 20px 0;
+    margin: 0 auto;
+    width: calc((100% - 5px) /2);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.lista-links ul{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.lista-links ul a{
+    font-size: 1.8cqmax;
+    text-decoration: none;
+    
+}
+
+.lista-links ul a{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    color: #fff;
+    gap: 5px;
+}
+
+.lista-links ul li .github::before{
+    content: url('../../../public/assets/github.png');
+    
+}
+
+.lista-links ul li .linkedin::before{
+    content: url('../../../public/assets/linkedin.png');
+
+}
+.consideracoes {
+    text-align: center;
+}
+
+.consideracoes h4{
+    font-size: 20px;
+    color: #d16837;
+}
+
+.consideracoes p{
+    font-size: 15px;
+    color: #fff;
+}
+
+.fim-rodape {
+    position: absolute;
+    border-top: 2px solid #363535;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+}
+
+.fim-rodape span{
+    font-family: cursive;
+    font-size: 20px;
+}

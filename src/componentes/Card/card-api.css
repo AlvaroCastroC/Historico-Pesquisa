@@ -1,0 +1,84 @@
+.box-card {
+    width: calc((100% - 40px) /3);
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px #000;
+    background-color: #fff;
+   
+}
+
+.card {
+    margin: 0 auto;
+    flex-basis: 200px;
+    flex-grow: 1;
+    padding: 20px 20px;
+    
+}
+
+.card h3 {
+    width: 100%;
+    border-bottom: 2px solid #252525;
+    font-size: 2.2cqmax;
+    font-weight: 700;
+    color:#d16837;
+    font-family: 'Times New Roman', serif;
+}
+
+.card h5 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 1.5cqmax;
+    color: #242221;
+}
+
+.card p {
+
+    font-size: 1.3cqmax;
+    color: #111111;
+}
+
+.card span {
+    color: #182358;
+    font-size: 1.7cqmax;
+    
+}
+
+.box-link {
+    margin: 10px auto;
+    width: 80%;
+    border-radius: 5px;
+    background: radial-gradient(#c41919 ,#ec0c0c);
+    
+}
+
+.link{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-link:hover{
+    background: radial-gradient(#df5110 ,#ec720d);
+    
+}
+
+.card img {
+    width: 100%;
+    
+    max-height: 150px;
+    min-height: 100px;
+}
+
+.card .box-imagem {
+    
+    flex-basis: 100px;
+    border-radius: 5px;
+    margin: 10px 0;
+    overflow: hidden;
+    filter: drop-shadow(3px 3px 2px #838080);
+    
+}

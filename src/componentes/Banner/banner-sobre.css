@@ -1,0 +1,63 @@
+.banner-sobre {
+    background-image: url('http://valepublicitando.com/wp-content/uploads/2019/07/Feijoada-do-Bar-do-Coronel-Divulga%C3%A7%C3%A3o-1024x682.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin-bottom: 50px;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.container-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 0;
+}
+
+.banner-sobre .titulo-banner{
+    margin: 50px auto;
+    border-radius: 20px;
+    border: 1px  solid #acabab;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    height: 75vh;
+    max-width: 80%;
+    flex-grow: 1;
+    
+    padding: 20px 100px;
+    background: #ffffff10;
+    backdrop-filter: blur(15px);
+    
+    
+}
+
+.banner-sobre .titulo-banner h1 {
+    color: #182358;
+    font-size: 5cqmax;
+    font-family: Impact;
+    margin: 20px 0;
+    margin-left: 20px;
+}
+
+.banner-sobre .titulo-banner h3 {
+    color: #dddddd;
+    font-size: 1.9cqmax;
+    border-bottom: 1px solid #fff;
+    max-width: 400px;
+    font-family: tahoma;
+}
+
+.banner-sobre .titulo-banner p{
+    line-height: 2;
+    font-size: 1.5cqmax;
+    font-weight: 700;
+    font-family: tahoma;
+    color: #dddddd;
+}

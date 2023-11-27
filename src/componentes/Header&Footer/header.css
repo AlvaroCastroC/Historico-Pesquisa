@@ -1,0 +1,49 @@
+header {
+    
+    width: 100%;
+    padding: 10px 0 ;
+    position: fixed;
+    top: 0;
+    transition: 0.5s;
+    z-index: 100;
+      
+}
+
+header.rolagem{
+    background-color: #e2e3e4;
+}
+
+header.rolagem .titulo-cabecalho h2{
+    color: #d16837;
+}
+
+header .topo {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.topo h2 {
+    font-size: 2.5cqmax;
+    color: #fff;
+    font-family: monospace;
+}
+
+.titulo-cabecalho{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.titulo-cabecalho img {
+    
+    max-width: 44px;
+    max-height: 44px;
+    
+
+}
+
