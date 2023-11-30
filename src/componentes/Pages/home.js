@@ -82,7 +82,7 @@ function Conex() {
       <div className='limite-container'>
         <div className='titulo-home'>
           <h2>Sobre</h2>
-          <p>O território nacional brasileiro tem grandes variedades de culturas e belezas naturais. Compondo com <span>27 Unidades Federativas</span>. E pode acreditar, cada estado sua própria beleza, que vale a pena visitar, seja para saborear uma delicíosa comida típica, visitar lugares íncriveis.</p>
+          <p>O território nacional brasileiro tem grandes variedades de culturas e belezas naturais. Compondo com <span>27 Unidades Federativas</span>. E pode acreditar, cada estado tem sua própria beleza, que vale a pena visitar, seja para saborear uma delicíosa comida típica, visitar lugares íncriveis.</p>
 
           <p>Pesquise aqui em baixo.</p>
         </div>
